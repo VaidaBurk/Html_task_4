@@ -1,0 +1,104 @@
+body, body * {
+    font-family: Helvetica, sans-serif;
+}
+
+main {
+    width: 480px;
+    height: 420px;
+    margin-left: calc((100% - 480px) / 2); 
+}
+
+header {
+    padding: 35px 0px 5px;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #C1C1C2;
+}
+
+.content {
+    border-bottom-style: solid;
+    border-top-style: solid;   
+    border-color: #C1C1C2;
+    border-width: 2px;
+}
+
+.content * {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.left-side {
+    width: 45%;
+}
+
+.right-side {
+    width: 54%;
+    vertical-align: bottom;
+}
+
+.text-p {
+    font-size: 9px;
+    word-spacing: 2px;
+    line-height: 12px;
+    color: #acacad;
+    margin-top: 8px;
+}
+
+.text-h {
+    font-size: 20px;
+    color: #E2061E;
+    margin-top: 45px;
+    margin-bottom: 0px;
+}
+
+.giro {
+    border-bottom-style: solid;
+    border-top-style: solid;
+    width: 16%;
+    transform: rotate(4deg);
+    float: right;
+    margin-right: 5px;
+    margin-top: 4px;
+    text-align: center;
+    height: 30px;
+}
+
+.giro * {
+    font-size: 14px;
+    line-height: 12px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin: 0;
+    vertical-align: top;
+}
+
+.giro300 {
+    font-size: 23px;
+    letter-spacing: -3px;
+    line-height: 10px;
+}
+
+.text-g {
+    width: 75%;
+}
+
+.logo {
+    width: 160px;
+    margin-bottom: 15px;
+    margin-top: 38px;
+}
+
+.foto {
+    width: 200px;
+    margin-left: calc((100% - 200px) / 2);
+}
+
+
+
+
+
+
+a {
+    color: #E2061E;
+}
